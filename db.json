@@ -1,16 +1,77 @@
 
-   
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
+  "data": {
+    "facility": {
+      "id": 1,
+      "organizationId": 50,
+      "name": "Test",
+      "dataReceivingEmail": "test@example.com"
+    },
+    "config": {
+      "id": 1,
+      "usingModelId": 1,
+      "facilityId": 1,
+      "alertEmail": "test@example.com",
+      "irregularEmail": "test@example.com",
+      "dangerLine": 3,
+      "warningLine": 2,
+      "irregularThreshold": 1
+      },
+    "displacement": 1
+  },
+  "chart": {
+    "precipitations": [
+      {"datetime": "2020-09-01 10:00:00", "value": 1},
+      {"datetime": "2020-09-01 11:00:00", "value": 2},
+      {"datetime": "2020-09-01 12:00:00", "value": 3},
+      {"datetime": "2020-09-01 13:00:00", "value": 3},
+      {"datetime": "2020-09-01 14:00:00", "value": 4},
+      {"datetime": "2020-09-01 15:00:00", "value": 0}
+    ],
+    "precipitationPredictions": [
+      {"datetime": "2020-09-01 10:00:00", "value": 1},
+      {"datetime": "2020-09-01 11:00:00", "value": 2},
+      {"datetime": "2020-09-01 12:00:00", "value": 3},
+      {"datetime": "2020-09-01 13:00:00", "value": 3},
+      {"datetime": "2020-09-01 14:00:00", "value": 4},
+      {"datetime": "2020-09-01 15:00:00", "value": 0},
+      {"datetime": "2020-09-01 16:00:00", "value": 6},
+      {"datetime": "2020-09-01 17:00:00", "value": 0},
+      {"datetime": "2020-09-01 18:00:00", "value": 4},
+      {"datetime": "2020-09-01 19:00:00", "value": 3},
+      {"datetime": "2020-09-01 20:00:00", "value": 2},
+      {"datetime": "2020-09-01 21:00:00", "value": 4},
+      {"datetime": "2020-09-01 22:00:00", "value": 3},
+      {"datetime": "2020-09-01 23:00:00", "value": 2},
+      {"datetime": "2020-09-02 00:00:00", "value": 0},
+      {"datetime": "2020-09-02 01:00:00", "value": 7},
+      {"datetime": "2020-09-02 02:00:00", "value": 5},
+      {"datetime": "2020-09-02 03:00:00", "value": 2},
+      {"datetime": "2020-09-02 04:00:00", "value": 0}
+    ],
+    "waterLevels": [
+      {"datetime": "2020-09-01 10:00:00", "value": 1},
+      {"datetime": "2020-09-01 11:00:00", "value": 2},
+      {"datetime": "2020-09-01 12:00:00", "value": 3},
+      {"datetime": "2020-09-01 13:00:00", "value": 3},
+      {"datetime": "2020-09-01 14:00:00", "value": 4},
+      {"datetime": "2020-09-01 15:00:00", "value": 0}
+    ],
+    "waterLevelPredictions": [
+      {"datetime": "2020-09-01 16:00:00", "value": 6},
+      {"datetime": "2020-09-01 17:00:00", "value": 0},
+      {"datetime": "2020-09-01 18:00:00", "value": 4},
+      {"datetime": "2020-09-01 19:00:00", "value": 3},
+      {"datetime": "2020-09-01 20:00:00", "value": 2},
+      {"datetime": "2020-09-01 21:00:00", "value": 4},
+      {"datetime": "2020-09-01 22:00:00", "value": 3},
+      {"datetime": "2020-09-01 23:00:00", "value": 2},
+      {"datetime": "2020-09-02 00:00:00", "value": 0},
+      {"datetime": "2020-09-02 01:00:00", "value": 7},
+      {"datetime": "2020-09-02 02:00:00", "value": 5},
+      {"datetime": "2020-09-02 03:00:00", "value": 2},
+      {"datetime": "2020-09-02 04:00:00", "value": 0}
+    ],
+    "simulated_water_levels": [2, 0, 7, 5, 2, 0, 3, 4, 3, 2, 0, 6, 4]
   }
 }
