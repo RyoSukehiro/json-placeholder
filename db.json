@@ -1,0 +1,19 @@
+{
+  "facility": {
+      "id": 1, 
+      "organizationId": 50, 
+      "name": "Test", 
+      "dataReceivingEmail": "test@example.com"
+    },
+  "config": {
+      "id": 1, 
+      "usingModelId": 1, 
+      "facilityId": 1, 
+      "alertEmail": "test@example.com", 
+      "irregularEmail": "test@example.com", 
+      "dangerLine": 3, 
+      "warningLine": 2, 
+      "irregularThreshold": 1
+    },
+  "displacement": 1
+}
