@@ -15,7 +15,8 @@
       "irregularEmail": "test@example.com",
       "dangerLine": 3,
       "warningLine": 2,
-      "irregularThreshold": 1
+      "irregularThreshold": 1,
+      "relearning_exclude_period": "2021-10-25"
       },
     "displacement": 1
   },
